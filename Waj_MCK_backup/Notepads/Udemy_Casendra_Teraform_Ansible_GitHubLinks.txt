@@ -1,0 +1,25 @@
+Procedure Document
+Course Guide
+Copy paste this guide and keep it somewhere safe, you will need these URLs later in this course. It's easier to copy paste it from this document than to type it over from the videos
+
+Facebook Group
+Name: Learn Devops - Continuously Deliver Better Software
+
+URL: https://www.facebook.com/groups/840062592768074
+
+Git Repositories:
+Cassandra: https://github.com/wardviaene/digitalocean-vagrant-cassandra-multi-node
+
+Devops Box: https://github.com/wardviaene/devops-box
+
+Terraform Demo: https://github.com/wardviaene/terraform-demo
+
+Docker PHP7: https://github.com/wardviaene/docker-php7
+
+Eb-php-example: https://github.com/wardviaene/eb-php-example
+
+Eb-php7-docker-example: https://github.com/wardviaene/eb-php7-docker-example
+
+Dokku demo: https://github.com/wardviaene/dokku-demo
+
+Deis demo: https://github.com/wardviaene/deis-demo

@@ -1,0 +1,23 @@
+From: Porzio, Christian [mailto:christian.porzio@hp.com] 
+Sent: Friday, September 13, 2013 11:36 AM
+To: Anderson, Alison; Langston, Rodney
+Cc: Armond, Reginald; Jayal, Meenakshi
+Subject: Handling of the IATA response - mockup screens
+
+Hi,
+
+Please find enclosed my proposals for the display of the IATA responses. I updated the same document as the one I created for the new main document mask. I wanted to have all the UI requirement in one consistent document.
+
+Please jump directly to section 2 - Handling IATA response display (page 9)
+
+Review the associated process flow and the screens then give me your feedback.
+
+Thank you very much!
+
+
+Christian Porzio
+Transportation Application Unit
+Hewlett-Packard Enterprise Services
+Mobile: +1 678 814 5108
+
+ 

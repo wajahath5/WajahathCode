@@ -1,0 +1,32 @@
+
+[?1/?22/?2020 2:04 PM]  Koovakattu, Denny:  
+Couple of things
+We need to get the License optimization slides in front of Shailesh 
+ 
+[?1/?22/?2020 2:05 PM]  
+ok 
+ 
+[?1/?22/?2020 2:05 PM]  Koovakattu, Denny:  
+Two we need to setup a meeting with Bryan May to discuss BareMetal in GCP
+ 
+[?1/?22/?2020 2:05 PM]  
+On a call now,  
+ 
+[?1/?22/?2020 2:06 PM]  Koovakattu, Denny:  
+np. Just wanted to let you know before I forget
+ 
+[?1/?22/?2020 2:06 PM]  
+Will setup up the meeting with Bryan May 
+Also for Shilesh the slides are ready, anytime based on his availablity 
+ 
+[?1/?22/?2020 2:08 PM]  
+We do not have anything on Asset mgmt yet
+ 
+[?1/?22/?2020 2:09 PM]  Koovakattu, Denny:  
+They have our license counts
+ 
+[?1/?22/?2020 2:08 PM]  Koovakattu, Denny:  
+Need to keep license optimization as a deck that can be shared. Most likely will go to Faye. 
+We will need some numbers from Software Asset Management
+ 
+

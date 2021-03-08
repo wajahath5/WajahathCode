@@ -1,0 +1,54 @@
+Operational Excellence:
+1. Organization
+OPS 1: How do you determine what your priorities are?
+Everyone needs to understand their part in enabling business success. Have shared goals in order to set
+priorities for resources. This will maximize the benefits of your efforts.
+
+OPS 2: How do you structure your organization to support your business outcomes?
+Your teams must understand their part in achieving business outcomes. Teams need to understand
+their roles in the success of other teams, the role of other teams in their success, and have shared
+goals. Understanding responsibility, ownership, how decisions are made, and who has authority to
+make decisions will help focus efforts and maximize the benefits from your teams.
+
+OPS 3: How does your organizational culture support your business outcomes?
+Provide support for your team members so that they can be more effective in taking action and supporting your business outcome.
+
+2. Prepare
+OPS 4: How do you design your workload so that you can understand its state?
+Design your workload so that it provides the information necessary across all components (for
+example, metrics, logs, and traces) for you to understand its internal state. This enables you to provide
+effective responses when appropriate.
+
+OPS 5: How do you reduce defects, ease remediation, and improve flow into production?
+Adopt approaches that improve flow of changes into production, that enable refactoring, fast feedback
+on quality, and bug fixing. These accelerate beneficial changes entering production, limit issues
+deployed, and enable rapid identification and remediation of issues introduced through deployment activites
+
+OPS 6: How do you mitigate deployment risks?
+Adopt approaches that provide fast feedback on quality and enable rapid recovery from changes that
+do not have desired outcomes. Using these practices mitigates the impact of issues introduced through
+the deployment of changes.
+
+OPS 7: How do you know that you are ready to support a workload?
+Evaluate the operational readiness of your workload, processes and procedures, and personnel to
+understand the operational risks related to your workload.
+
+Operate:
+OPS 8: How do you understand the health of your workload?
+Define, capture, and analyze workload metrics to gain visibility to workload events so that you can take
+appropriate action.
+
+OPS 9: How do you understand the health of your operations?
+Define, capture, and analyze operations metrics to gain visibility to operations events so that you can
+take appropriate action.
+
+OPS 10: How do you manage workload and operations events?
+Prepare and validate procedures for responding to events to minimize their disruption to your workload
+
+Evolve:
+
+OPS 11: How do you evolve operations?
+Dedicate time and resources for continuous incremental improvement to evolve the effectiveness and
+efficiency of your operations
+
+

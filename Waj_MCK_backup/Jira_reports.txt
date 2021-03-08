@@ -1,0 +1,20 @@
+DONE
+statusCategory = done AND project = 15406 AND fixVersion = 27929 and cf[15429] = "GLERP Silver Surfers" ORDER BY priority DESC, key ASC
+
+
+INPROGRESS
+statusCategory = indeterminate AND project = 15406 AND fixVersion = 27929  AND fixVersion = 27929 and cf[15429] = "GLERP Silver Surfers"  ORDER BY priority DESC, key ASC
+
+ALL ISSUES (Epics,Stories)
+project = 15406 AND fixVersion = 27929 and cf[15429] = "GLERP Silver Surfers" ORDER BY priority DESC, key ASC
+
+ISSUES (Stories)
+project = "Global ERP and Platform Services ART" AND issuetype = Story AND cf[15429] = "GLERP Silver Surfers" AND fixVersion = IO ORDER BY status DESC
+
+
+TO DO  (new)
+statusCategory = new AND project = 15406 AND fixVersion = 27929  AND cf[15429] = "GLERP Silver Surfers" 
+ ORDER BY priority DESC, key ASC
+
+
+DDCDZ50328 - Upgrade (New server)

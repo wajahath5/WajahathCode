@@ -1,0 +1,63 @@
+e4i195w
+
+***************************************************************
+https://mck.webex.com/meet/wajahath.quraishi
+Meeting Number: 743 175 388
+***
+Join by phone
++1 6172093645 United States Toll
+8442973062 United States Toll Free
+Access code: 743 175 388
+***
+Host PIN: 6487
+Join by video system
+Dial wajahath.quraishi@mck.webex.com and enter your host PIN 6487.
+You can also dial 173.243.2.68 and enter your meeting number.
+
+***************************************************************
+https://mck.webex.com/join/denny.koovakattu
+
+CR Dal B-4118 Phoenix (6) Dallas MSSC
+CR Dal B-4130 San Francisco (6) Dallas MSSC
+VC Dallas TX B-4120 San Diego MX800 (10) Dallas MSSC <VCDallasTXB-4120SanDiegoMX80010DallasMSSC@McKesson.com>
+VC Dallas TX B-4115 New York MX700 (10)  Dallas MSSC <VCDallasTXB-4115NewYorkMX70010DallasMSSC@McKesson.com>; 
+VC Dallas TX B-4143 Nashville DX80 <VCDallasTXB-4143NashvilleDX80@McKesson.com>
+
+VC Dallas TX B-4143 Nashville DX80 <VCDallasTXB-4143NashvilleDX80@McKesson.com>; 
+VC Dallas TX B-6040 Azalea RKP (20 <VCDallasTXB-6040Azalearkp8@McKesson.com>; 
+VC Dallas TX B-9002 Eiffel Tower RKP (16) <VCDallasTXB-9002EiffelTowerRKP16@McKesson.com>; 
+VC Dallas TX B-6041 Bluebonnet RKP (8) <VCDallasTXB-6041Bluebonnetrkp8@McKesson.com>; 
+Dallas DC Conference Room A (Capacity 20) <DallasDCConferenceRoomACapacity20@McKesson.com>; D
+allas DC Conference Room B (Capacity 20) <DallasDCConferenceRoomBCapacity20@McKesson.com>; CR Dal B-2031 Georgia (12) Dallas MSSC <dc2zbah@mckesson.com>; CR Dal B-2035 Connecticut (12) Dallas MSSC <dc3zbah@mckesson.com>; CR Dal B-2080 Pennsylvania (18) Dallas MSSC <dc6zbah@mckesson.com>; CR Dal B-2083 New Jersey (12) Dallas MSSC <dc7zbah@mckesson.com>; CR Dal B-3023 Live Oak (12) Dallas MSSC <dddzbah@mckesson.com>; CR Dal B-3058 Pecan (12) Dallas MSSC <ddfzbah@mckesson.com>; CR Dal B-4117 Philadelphia (8) Dallas MSSC <ddqzbah@mckesson.com>; CR Dal B-4088 Los Angeles (12) Dallas MSSC <ddpzbah@mckesson.com>; CR Dal B-4043 Indianapolis (10) Dallas MSSC <ddnzbah@mckesson.com>; CR Dal B-4042 Detroit (10) Dallas MSSC <ddmzbah@mckesson.com>; CR Dal B-4041 Columbus (10) Dallas MSSC <ddlzbah@mckesson.com>; CR Dal B-4040 Chicago (10) Dallas MSSC <ddkzbah@mckesson.com>
+
+WEbex
+Timesheet
+RISKS 
+Communication Risks  -offshore, Matrix format working agreement openness to ask questions
+Technology - Data Migration/Transformation risks, Dependendency risks on CS, Catalog, Sabre for downstream systems
+Sschedule risks: schedule development on sequencing things that be done in parallel. Backlog grooming to include SOAPUI tests on interfaces that were ready. Open SR's for firewalls, SABRE etc and followups.
+Resource risks : Shared resource, plan schedule accordingly, add to agenda  meeting invite  or in some cases invite for standup calls.
+Standup calls, invite Shared resouces 
+Business acceptance: Users sign off on reports, Correctness of data was a big risk.
+PO availablity : Plan according to their avaiablity and work with them offline to get answers in formal communication9
+Stragetic planning risks: BIG BANG, Segmented approach drain down, Rehersals, helpdesk Command center
+
+Chanllenges of agile:
+PO avaialablity
+PO unsure and keeps going back and forth on requirements not being firm on requirements
+INVEST PRINCIPLES of User stories and Independent factor is challenging as ther are quite a few dependencies 
+Developers Mindset , Do not want to document 
+Senior management : Openness to enbrace agile and enpowerment of teams culture.
+
+Data Migration/Transformation risks
+1. Quality and correctness of data.
+2. Data Certification: 100% accurate
+3. Data Reconsiliation: Technical Reconsiliation ( Run and target and source systems to verify counts) / Functional Reconsiliation  Run a few business scenerios
+4. Compliance requirements: Data retention Online, offline and purge >20 years data.
+5. Historical data : Put in DORMANT database and use Union joins if you need it
+6. legacy application: No code, no maintaince, Data format is not correct, DATA format issues, null values, mandatory values need transformation
+7. Proper Handshake: the upstream systems modified the data without information the downstream systems
+8. Actuals v/s expected values: Identify top business/data scenerios and test them, have Beta testing cycles with realtime data.
+9.MDM data: master data management . Have one common store for Operation data from the two systems and no duplicates most correct data
+10. Segmented approach with 3 drill downs and Rehersals with .vmd file batch file boot order modified to boot up.   
+
