@@ -1,0 +1,13 @@
+
+
+67	DDCDP50077	DDCDP50077		10.50.2500.0	Enterprise Edition (64-bit)	DBA_IOSS_SQL	 Sunny Rai	 Rich Benoit	Decommission	
+
+148	DDCDZ50078	DDCDZ50078	Windows Server 2008 R2 Enterpr	10.50.2550.0	Standard Edition (64-bit)	DBA_IOSS_SQL-Test	 Sunny Rai	 Rich Benoit	Decommission
+
+180	NDHDQ50046	NDHDQ50046	Windows Server 2008 R2 Enterpr	10.50.2550.0	Enterprise Edition (64-bit)	DBA_IOSS_SQL-Test	 Sunny Rai	 Rich Benoit	Decommission
+
+Super Cluster, Sunset, Generics Perf, MMS Perf, GCP, Public Cloud, Opensource DB, Security & Audit, Monitoring, Addl. Operational Excellence
+
+ Green = project is on track. 
+ Amber = some issues, needs close monitoring 
+ Red = Serious issues, Dates being missed, Recovery plan required.

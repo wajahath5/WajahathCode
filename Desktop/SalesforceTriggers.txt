@@ -1,0 +1,82 @@
+trigger FirstTrigger on Account (before insert) {
+System.debug(' Our Second Trigger');
+
+}
+
+trigger FirstTrigger on Account (before insert) {
+    for (Account a: Trigger.new){
+        a.Description = 'New Description';
+    }
+
+}
+
+
+
+As a admin I need to restrict user to delete account record if there is any open or related Opportunity availiable..
+
+
+select name,AccountId from opportunity limit 10
+
+select Id from account limit 10
+
+select Id,name  from account where id  IN (select Accountid from opportunity )
+
+https://trailhead.salesforce.com/en/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_introlet me if everyone here
+
+****************************************************************************************************************************
+
+Http http = new Http();
+//to set the request parameter for animals
+HttpRequest request = new HttpRequest();
+request.setEndpoint('https://th-apex-http-callout.herokuapp.com/animals');
+
+request.setmethod('GET');
+//to receive the response from 
+urlHttpResponse response = http.send(request);
+
+//if the request is successful, then parse Jsonif 
+(response.getStatusCode() == 200){    
+
+Map<String, Object> results = (Map<String, Object>)JSON.deserializeUntyped(response.getBody());    
+
+//Cast the values in the animal keys as a list    
+List<Object> animals = (List<Object>) results.get ('animals');    
+System.debug('Received the following animal:');    
+
+for(Object animal : animals){        
+System.debug(animal); 
+}
+
+}
+
+{{{{{{{{{{{
+Http http = new Http();
+//to set the request parameter for animals
+HttpRequest request = new HttpRequest();
+request.setEndpoint('https://th-apex-http-callout.herokuapp.com/animals');
+request.setmethod('POST');
+request.setHeader('Content-Type', 'application/json;charset=UTF-8');
+// set the body as Json object
+request.setBody('{"name":"Royal Bengal Tiger"}');
+//to receive the response from url
+HttpResponse response = http.send(request);
+//if the request is successful, then parse Json
+if (response.getStatusCode() != 201){
+    
+    System.debug('The status code returned was not expected: ' +
+                response.getStatusCode() + '' + response.getStatus());
+}
+else{
+    System.debug(response.getBody());
+}
+
+}}}}}}
+***************
+public class animalcallout {        public static HttpResponse makeGetcallout(){                Http http = new Http();//to set the request parameter for animalsHttpRequest request = new HttpRequest();request.setEndpoint('https://th-apex-http-callout.herokuapp.com/animals');request.setmethod('GET');//to receive the response from urlHttpResponse response = http.send(request);//if the request is successful, then parse Jsonif (response.getStatusCode() == 200){    Map<String, Object> results = (Map<String, Object>)JSON.deserializeUntyped(response.getBody());    //Cast the values in the animal keys as a list    List<Object> animals = (List<Object>) results.get ('animals');    System.debug('Received the following animal:');    for(Object animal : animals){        System.debug(animal);         }}   return response;         }        public static HttpResponse makePostcallout(){   
+             Http http = new Http();//to set the request parameter for animalsHttpRequest request = new HttpR
+
+
+
+
+
+******

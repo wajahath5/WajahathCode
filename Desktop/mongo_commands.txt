@@ -1,0 +1,41 @@
+C:\Users\e4i195w\Documents\mongodb-shell\mongodb-win32-x86_64-windows-4.4.0\mongodb-win32-x86_64-2008plus-ssl-3.6.2\bin mongo "mongodb+srv://cluster0.s7trg.mongodb.net/sample_airbnb" --username wajahath
+
+ mongo "mongodb+srv://cluster0.s7trg.mongodb.net/sample_airbnb" --username wajahath
+
+
+600 - spray a srrface Kills any backertia virus on the surface  90 days..technicall 30 day
+
+Proj Mgmt, Bio tech pharma VP of operations
+Cuture filt condident many hats, start up enviroment.
+
+Coding 
+
+•	Worked with business on strategy planning of FY roadmap items and its prioritization journey maps and value creation 
+•	Built CX features to self-serve, auto scale design and automation capabilities to delivery business agility thru CICD deployment 
+•	As part of PI preplanning, work closely with cross functional, business design thinking teams to identify top 10 items on features 
+•	Identified Key performance indicators including Customer delight index to track, inspect and adapt the roadmap in Agile/Scrum 
+•	Strategized and Improved Operational excellence by Automation of audit, compliance, provisioning, database patching tasks that resulted in bringing down the defect count and operational issues 
+•	As part of Project Sunset, worked with cross functional teams on disposition of database migration projects due to SQL Server 2008 end of Support for upgrading, decommissioning or migrating to cloud 
+•	Modernizing of applications using the cutting-edge technologies in AI/ML, No SQL Mongodb, Node.js and microservices
+
+
+IBM
+Program Manager 
+319278BR
+
+DaVontte Archie -Ultra
+
+Technical Offering Manager - Cloud Fabric
+
+ Program Mgmt/Agile SAFe®
+ Product Management 
+ Portfolio/Strategic Planning
+ Governance / IT Investment	
+ AWS Certified Arch (Associate)
+ Cloud (PAAS /SAAS)
+ Dev /Ops Modernization
+ SAFe Certified PO/PM	
+ Togaf Certified Enterprise Architect
+ Certified Scrum Master (CSM)
+ PMP Certified
+ Customer Relations

@@ -1,0 +1,8 @@
+
+
+1. Servers are provisioned
+2. Specs available
+3. Service accounts created 
+4. Submit a System Catalog DB BUILD request
+https://newservicecatalog.mckesson.com/sc/catalog.product.aspx?parent_category_id=_X_&category_id=Server%20and%20Platform%20Related%20Access&product_id=Database.Deployment.Process
+5. Request early give lead time.

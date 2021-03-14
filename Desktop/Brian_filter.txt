@@ -1,0 +1,66 @@
+“project = GLERP AND fixVersion in (Gemini) AND status not in ("In Progress", done, cancelled) ORDER BY cf[15429] ASC, assignee DESC, status ASC”  
+
+Dashboard queries
+project = GLERP AND issuetype = story AND status not in (Backlog, Cancelled, "To Do", done, Complete) AND ("Acceptance Criteria" is EMPTY OR assignee is EMPTY) AND cf[15429] = "GLERP Silver Surfers"
+
+project = 15406 AND fixVersion in (Draco, Fornax, Gemini) AND fixVersion not in (Backlog, Hydra, IO) AND status not in (done, cancelled, Complete) AND cf[15429] = "GLERP Silver Surfers" ORDER BY cf[15429] ASC
+
+
+--Month End Support
+1. Assisted and troubleshot Shalini’s permission issue before Month End and corrected the issue
+2. Worked on page on Saturday for P504 disk space alert
+3. Assisted Shawn Borden on Sunday to check TABS-SQL2-PD Prod server.
+
+--Work with and Assist to App Managers
+1. Helped with  Angela’s SOX request
+2. Followed up with Maruti to update SLA on TASC-105 and assisted him on how to do so
+3. Worked with Shawn Borden on DDCDP50788 RDAT2 5% free issue
+4. Assisted on the resolution on stopping SSRS report going to certain user for Joshua Seanz
+
+--Worked on RCA
+1. Reached out to Keron for RAC on TASC-105
+2. Attended meeting with Domain Controller team and exchanged information on TASC-105 issue
+
+--Teamwork Activities
+1. Held weekly DBA meetings to have DBA internal discussion and demo
+2. Worked on GFA server disk space analysis and projection project with Amit
+3. Provided instruction on how to unlock accounts to teammates
+4. Assisted Cassey to troubleshoot the high INC with INMFC-037 time out and provide many screenshots and tips.
+
+--Migration Activities
+1. Attended weekly migration meeting
+2. Migration from 39 to N3/4 is currently on hold
+
+1. RCA/ImageNow QA:  This RCA is still open.  Researching high CPU usage for 2 week period.
+ 2. Winshuttle  Customer wants backups to be peformed by EDP from now on instead of locally           
+3. RCA/ImageNow PROD : Meeting on 4/7 at 3:30pm to discuss status of RCA                                     
+4. MCKSQLP511\SQLP511 - Reached out to WSA to resolve, howerver this server is used for GetPaid and it is decommissioning                                         
+5.GetPaid callout on Saturday, April 4th for log shipping server, ddcdp50954.  INC000010733262      
+
+
+
+
+Post migration using the back and restore.
+Work with he application team on the following to validate all the database objects,data and permissions are migrated successfully
+
+Verify the application is able to connectivity
+Verify that the permissions are correct
+Data validation to the new instance.
+
+Validation Checklist - Validate the Transported Data
+Check that all services part of the installation are up and running
+Verify that databases are Read only or Read-Write
+Verify and compare Jobs at the source and destination. 
+ Verify and compare the maintenance plans at the source and destination. 
+ Verify and compare sql server logins at source and destination
+Verify and compare linked servers  at source and destination
+Verify and compare alerting, email configuration, and other options at source and destination
+Verify all log shipping, replication if applicable at source and destination
+Verify if the users have been granted the right Privileges
+--------------
+Work with he application team on the following to validate all the database objects,data and permissions are migrated successfully
+
+Verify the application is able to connectivity
+Verify that the permissions are correct
+Data validation to the new instance.
+

@@ -1,0 +1,77 @@
+'Assigned Group*+' LIKE "DBA_INFRA" OR 'Assigned Group*+' LIKE  "DBA_IOSS_ORACLE" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQL" OR 
+'Assigned Group*+' LIKE  "DBA_OPS" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQLSVR" AND ('Submit Date' >= "10/13/20" AND 'Submit Date' <= "10/15/20") AND 'Status*' Like "Assigned"
+
+'Assigned Group*+' LIKE "DBA_INFRA" OR 'Assigned Group*+' LIKE  "DBA_IOSS_ORACLE" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQL" OR 
+'Assigned Group*+' LIKE  "DBA_OPS" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQLSVR" AND ('Submit Date' >= "10/30/20" AND 'Submit Date' <= "11/05/20") AND 'Status*' Like "Assigned"
+
+
+
+'Assigned Group*+' LIKE  "DBA_INFRA" OR 'Assigned Group*+' LIKE  "DBA_OPS" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQLSVR" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQL" OR Assigned Group*+' LIKE  "DBA_IOSS_ORACLE" OR 'Assigned Group*+' LIKE  "MMS_DBA_ORACL" AND ('Submit Date' >= "12/01/20" AND 'Submit Date' <= "12/15/20") AND 'Status*' Like "Assigned"
+
+//**** USE THIS BELOW ***//
+'Assigned Group*+' LIKE  "DBA_INFRA" OR 'Assigned Group*+' LIKE  "DBA_OPS" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQLSVR" OR 'Assigned Group*+' LIKE  "SMODBA"  OR 'Assigned Group*+' LIKE  "DBA_ORACLE" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQL" OR 'Assigned Group*+' LIKE  "DBA_IOSS_ORACLE" OR 'Assigned Group*+' LIKE  "MMS_DBA_ORACLE" AND ('Submit Date' >= "12/01/20" AND 'Submit Date' <= "12/15/20") AND 'Status*' Like "Assigned"
+*****************************
+
+//LATEST USE THIS Dec 20th 
+'Assigned Group*+' LIKE  "MMS_DBA_ORACLE" OR 'Assigned Group*+' LIKE  "DBA_SQLSVR" OR 'Assigned Group*+' LIKE  "GFA_DBA" OR 'Assigned Group*+' LIKE  "ECS_DBA" OR 'Assigned Group*+' LIKE  "DBA_INFRA" OR 'Assigned Group*+' LIKE  "DBA_OPS" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQLSVR" OR 'Assigned Group*+' LIKE  "SMODBA"  OR 'Assigned Group*+' LIKE  "DBA_ORACLE" OR 'Assigned Group*+' LIKE  "DBA_IOSS_SQL" OR 'Assigned Group*+' LIKE  "DBA_IOSS_ORACLE"
+//
+
+"MMS_DBA_ORACLE" 
+"DBA_SQLSVR" 
+"GFA_DBA" 
+"ECS_DBA" 
+"DBA_INFRA"
+"DBA_OPS"
+"DBA_IOSS_SQLSVR"
+"SMODBA"
+"DBA_ORACLE" 
+"DBA_IOSS_SQL"
+"DBA_IOSS_ORACLE"
+
+
+
+=ISNUMBER(SEARCH("w",J2))
+project in (DTSD) AND createdDate <'2021/01/04' and createdDate >'2020/12/21'  ORDER BY createdDate DESC
+
+
+
+
+
+//******
+31/Mar/2021
+Meetings/Standup calls/All hands/ Team Meetings
+
+
+project in (GDBS, DTSD) AND labels in (GDS_Projects) ORDER BY issuekey ASC
+
+
+project in (GDBS, DTSD) AND labels in (GDS_Reporting, GDS) AND reporter not in (eruwu7c, e608nz3, ev2pj26, e8i81nn) AND issuekey not in (GDBS-100, GDBS-138, GDBS-505, GDBS-590, GDBS-811, GDBS-751, GDBS-609, GDBS-662, GDBS-663, GDBS-664, GDBS-665, GDBS-666, GDBS-667, gdbs-668, gdbs-942) ORDER BY issuekey ASC
+
+
+
+Http http = new Http();
+// To set the request parameter for animals
+HttpRequest request= new HttpRequest();
+request.setEndpoint('https://th-apex-http-callout.herokuapp.com/animals
+');
+request.setMethod('GET');
+                    
+ // To recieve the response from url
+  HttpResponse response=http.send(request);
+ // If request is successful , then parse Json
+                    if (response.getStatusCode() ==200){
+                    Map <String, Object> results = (Map <String, Object>)Json.deserializeUntyped(response.getBody());
+                    
+                        //cast the values in the animal keys as a list
+                        
+                        List<Object> animals = (List <Object>) results.get('animals');
+                        System.debug('Received the following animal:');
+                        for (Object  animal : animals) {
+                            System.debug(animal);
+                        }
+                        
+                    }
+
+
+
+

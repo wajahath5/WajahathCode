@@ -1,0 +1,22 @@
+Ea31MV0Dcv
+
+
+Portal ID: 215025
+Initial Password: Ea31MV0Dcv
+Email address: Wajahath.Quraishi@nttdata.com
+
+
+The NTT DATA Services Portal:
+
+The NTT DATA Services Portal takes you to MyHub, our intranet and main source for company news, information, benefits, time and expense reporting, webmail, travel, Yammer and much more.
+
+To log into the Portal/MyHub go to: https://nttdatagroup.sharepoint.com and use your Portal ID and initial password provided above. Please note that when entering your login credentials, you will need to enter your Portal ID with '@nttdata.com' appended to it. For example, if your Portal ID is 123456, you will enter 123456@nttdata.com.
+
+After you first log in, you will need to update your password. To update your password:
+
+Login to https://selfservice.portal.nttdataservices.com to change your default password and update your self-service information.
+Be sure to follow the password complexity standards noted on the webpage when changing your password. If you have any questions, please contact the IT Service Desk team by email at ITServicedesk@nttdata.com or by phone at 1-888-532-6021.
+
+Welcome to the team!
+
+https://mckessoncorp.sharepoint.com/sites/ServiceNow/SitePages/Information-Technology-Service-Management.aspx

@@ -1,0 +1,142 @@
+https://jira.mckesson.com:8443/browse/GDBS-942
+
+
+
+
+** Nov 20th
+
+project = "Global ERP and Platform Services ART" AND cf[15429] = "GLERP Silver Surfers" AND Status Not in ('DONE','Cancelled', 'Completed') AND "Parent Link" = GLERP-1694
+
+** Nov 20th
+
+
+   project in (GDBS, DTSD) AND createdDate > startOfWeek()
+   project in (GDBS, DTSD) AND createdDate > startOfWeek() AND status in ("In Progress", "Work in Progress", Open) ORDER BY createdDate DESC
+project in (GDBS, DTSD) AND createdDate > startOfWeek() AND status in (resolved, closed, done, canceled, completed) ORDER BY createdDate DESC
+project in (GDBS, DTSD) and STATUS Not IN ( resolved, closed, done, canceled, completed) ORDER BY createdDate     (ONLY OPEN ones ??)
+
+
+
+
+# of New Demand Requests this week	245	   project in (GDBS, DTSD) AND createdDate > startOfWeek()
+
+# of Demand Requests being worked this week	145	   project in (GDBS, DTSD) AND createdDate > startOfWeek() AND status in ("In Progress", "Work in Progress", Open) ORDER BY createdDate DESC
+
+# of Completed Demand requests this week (Done)	39	project in (GDBS, DTSD) AND createdDate > startOfWeek() AND status in (resolved, closed, done, canceled, completed) ORDER BY createdDate DESC
+
+Total Request 	381	project in (GDBS, DTSD) and STATUS Not IN ( resolved, closed, done, canceled, completed) ORDER BY createdDate     (ONLY OPEN ones ??)
+
+
+-----------------------------------------------------------------
+issuekey=GLERP-4236
+
+Automate the deployment of database solutions in GCP
+Automate the process of obtaining approvals for user access
+
+
+https://mck.webex.com/meet/wajahath.quraishi
+project = "Database Technology Service Desk" AND resolutiondate > startOfMonth() 
+
+project ="Global ERP and Platform Services ART" AND "Epic Link" = GLERP-349 
+project = "Global ERP and Platform Services ART" AND issuetype = Epic 
+project = "Global ERP and Platform Services ART" AND issuetype = Epic AND fixVersion = Gemini 
+project = GLERP AND issuetype = Epic AND fixVersion = Gemini and cf[15429] = "GLERP Silver Surfers" 
+project = "Global ERP and Platform Services ART"  AND issuetype = Epic and status not in (Done, Backlog)
+project = "Global ERP and Platform Services ART"  AND issuetype = Epic  and cf[15429] = "GLERP Silver Surfers" 
+project = "Global ERP and Platform Services ART"  AND issuetype = Epic  and cf[15429] = "GLERP Silver Surfers" AND fixVersion = Gemini
+project = "Global ERP and Platform Services ART"  and cf[15429] = "GLERP Silver Surfers" (All issues)
+project = "Global ERP and Platform Services ART"  and cf[15429] = "GLERP Silver Surfers" ND fixVersion = Gemini (Issues in Gemini)
+project = "Global ERP and Platform Services ART"  and cf[15429] = "GLERP Silver Surfers" AND fixVersion = Gemini AND issuekey = GLERP-1555
+project = "Global ERP and Platform Services ART"  and cf[15429] = "GLERP Silver Surfers"  and issue = "GLERP-3885"
+****************************************************************
+Epic Sunset
+project = "Global ERP and Platform Services ART" AND cf[15429] = "GLERP Silver Surfers" AND fixVersion = Gemini AND "Parent Link" in (GLERP-1555) OR "Parent Link" = GLERP-1556 OR "Parent Link" = GLERP-2886
+
+SuperCluster:
+project = "Global ERP and Platform Services ART" AND cf[15429] = "GLERP Silver Surfers" AND fixVersion = Gemini AND "Parent Link" in (GLERP-1694)
+Automation:
+project = "Global ERP and Platform Services ART" AND cf[15429] = "GLERP Silver Surfers" AND fixVersion = Gemini AND "Parent Link" in (GLERP-2807)
+*************************************************************************************************
+project = GLERP AND status not in (Closed, Done) AND resolution = Unresolved AND fixVersion in (Draco, Fornax, Gemini) AND fixVersion not in (Hydra) ORDER BY cf[15429] ASC
+*****************************************
+
+=IF($E3="XXXL",55,($E3="XXL",34,21))
+=IF AND($E3="XXXL",55,),($E3="XXL",34,),($E3="XL",21,),($E3="L",13,)
+=SWITCH ($E3,XXXL,55,XXL,34,XL,21,L,13,M,8)
+https://jira.mckesson.com:8443/projects/GLERP/issues/GLERP-3773?filter=allopenissues
+
+
+***** Jeremiah*************************
+https://mckessoncorp.sharepoint.com/sites/GRPSuperClusterDecommission/Shared%20Documents/Forms/AllItems.aspx
+https://serviceagility.mckesson.com/app/index.html#/home
+Database Technology Service Desk - Service Desk
+https://jira.mmsit.mckesson.com/servicedesk/customer/portal/1
+MMS DTSD - Portal
+https://jira.mckesson.com:8443/servicedesk/customer/portal/1059
+Remedy - AHS Portal
+http://remedyweb.mckesson.com:8085/arsys/forms/remapp/MCK%3AWP-WebPortal/New_web_default/?qual=%27Group%27%3D%22AHS+Portal+Support%22&usertimezone=America%2FChicago&cacheid=558fc3a
+*********************************************************************
+eyqeyns - Anil A
+eck4lyc - Satya
+1. Named user Licensing 
+2. Q3 time frame
+
+Host names/databases:
+MMSSIIN -Targetted date for move week of Dec 16th (Updated on : DEc 4th)
+MMSLMSD  - Awaiting capacity at Drohan Datacenter (DDC) (Updated on : DEc 4th)
+MMSLMS2D - Awaiting capacity at Drohan Datacenter (DDC) (Updated on : DEc 4th)
+MMSPPSD 
+MMSSIP  -Delayed to Feb 2020
+MMSINFP - a development database we use for testing processes when no longer need it we can simply retire it
+MMSADSD - being validated in the Corporate instance of the application suite, will be retired end of Q3 (Updated on : Nov 15th)
+MMSADSP - being validated in the Corporate instance of the application suite, will be retired end of Q3 (Updated on : Nov 15th)
+MMSCTMD (Control-M) initial planning discussion has occurred and we’ve sent the request for GCP development environment. (Updated on : Nov 15th)
+MMSOBIP - retired as of Saturday, November 4, 2019 and will be deleted from the SuperCluster on ~11/21/2019. (Updated on : Nov 15th)
+IMPDEVL  - retired on Saturday, November 16, 2019 and will be deleted from the SuperCluster on ~11/30/2019. (Updated on : Nov 15th)
+GALPROD  -Awaiting capacity at Drohan Datacenter (DDC)
+IPMPROD -Delayed to Feb 2020
+IPMPY  - requires a server to be provisioned for move. (Updated on : Nov 15th)
+ATTEST  -Awaiting capacity at Drohan Datacenter (DDC) the testing effort may complete in January (Udated on : Dec 3rd)
+E1IN  -Awaiting capacity at Drohan Datacenter (DDC)
+E1TEST - Awaiting capacity at Drohan Datacenter (DDC)
+IPMTEST -Awaiting capacity at Drohan Datacenter (DDC)
+Apacheta / Roadnet
+DSPROD - For moving this from Supercluster we need 50 CPU cores and about 125TB of storage
+PETEST - Off the SuperCluster to a new Oracle home in November. (Updated on : Oct 25th)    
+PEPROD - We will plan to move PEPROD in March, as Pam will be unavailable in Feb. (Updated on : Oct 25th)  
+MMSEDQP - database off the SuperCluster before the between Feb-April (Updated on : Oct 24th)
+MMSEDQD -database off the SuperCluster before the end of January (Updated on : Oct 24th)
+
+Target: Oracle POD 
+
+EDQP does not use MMSEDQD and MMSEDQP databases  - Dec 2nd email.
+
+DDC Storage Plan: 
+We’ve identified 10+ servers and 60TB of storage to repurpose for SuperCluster Decommission.
+Reuse the SuperCluster parts from PS&A when it is decommissioned
+
+NDH does have some capacity if that is an option for you.    
+NDH POD2 Compute2
+400 vCPU’s
+2.5TB of Ram
+25 TB of Storage NetApp iSCSI  - ndhntapcl01
+
+
+
+
+Option to Extend MMS SuperCluster EOL from 8/2020 to 3/2021
+Moving DSPROD off the SC and keeping it for say the next year or two would mean we need 50 CPU cores and about 125TB of storage
+To keep DSPROD as is [on SuperCluster], we are looking at less than 50TB and maybe 30 CPU cores, To resolve the performance issues and factor in 1-2 years of growth, we will need approx 50 CPU cores and 125TB of storage 
+
+
+
+If we do not renew the support contract, we will not get any support for the hardware or the software required for the SuperCluster. 
+(The database software is not part of this support agreement).The date for contract renewal is 19-Jul-2020 (Aug was the date given earlier) and the lead time required for the paperwork, if we are renewing, is approximately 60 days.
+Based on what we know, I do not recommend staying on the SuperCluster past the end of the contract. 
+I understand that we do not want to do migrate off the Super Cluster and then migrate one more time to Snowflake. 
+If we don’t think we can fully migrate to Snowflake by July/Aug, we should look at creative ways to migrate off the SuperCluster to minimize impact. 
+We can brainstorm and see what options we have.
+
+
+
+

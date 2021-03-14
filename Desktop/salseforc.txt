@@ -1,0 +1,16 @@
+
+https://help.salesforce.com/articleView?id=knowledge_post-migration_checklist.htm&type=5
+https://www.youtube.com/watch?v=0QDb9il6Bsohttps://developer.salesforce.com/forums/?id=9060G0000005ftSQAQ
+https://help.salesforce.com/articleView?id=loader_install_windows.htm&type=5 https://trailhead.salesforce.com/en/content/learn/modules/sf_releases/sf_releases_start?trail_id=sf_release_prep
+
+
+
+Sean William is a Sales Executive manager and he would like to built a solution for all its Sales Rep to enter the reason mandatory whenever an Opportunity is lost. He would like to run a report at end of month to analyze the performance and common use case to improve the Sales.He would also like to notified immediately whenever an Opportunity is lost for any reason.
+
+He would also like to notified immediately whenever an Opportunity is lost for any reason.Also update Account Rating with Cold when Opportunity is lost.
+
+Also update Account Rating with Cold when Opportunity is lost
+
+
+
+
